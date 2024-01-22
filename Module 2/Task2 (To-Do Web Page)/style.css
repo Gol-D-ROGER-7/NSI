@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=GFS+Neohellenic:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* font-family: 'GFS Neohellenic', sans-serif; */
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+body {
+    background-image: url(assets/todo-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    width: auto;
+    
+}
+header, main, footer {
+    max-width: 800px;
+    margin: 20px auto;
+    /* background-color: #fff; */
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    /* box-shadow: -2px 2px 17px 2px #fff; */
+    backdrop-filter: blur(3px);
+    padding: 20px;
+    width: 100%;
+    border-bottom: 1.4px solid wheat;
+    /* margin: 1rem; */
+    font-family: Poppins;
+}
+
+h1 {
+    text-align: center;
+}
+h2 {
+    padding: 3px;
+    color: #ddd;
+}
+
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding: 8px 0;
+}
+
+button {
+    padding: 6px;
+    background: transparent;
+    border: 1.4px solid white;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 7px;
+}
+#task-input {
+    margin-top: .4rem;
+    padding: 6px;
+    outline: none;
+    background: transparent;
+    color: #fff;
+    font-size: 15px;
+    border: 1.4px solid white;
+    border-radius: 7px;
+
+}
+#task-input::placeholder {
+    color: #fff;
+}
+.completed {
+    text-decoration: line-through;
+    color: #999;
+}
+
+footer {
+    text-align: center;
+}

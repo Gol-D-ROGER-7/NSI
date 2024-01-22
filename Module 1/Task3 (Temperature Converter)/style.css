@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Serif:ital@1&family=Roboto+Mono:wght@400;500&family=Salsa&family=Slabo+27px&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*::selection {
+  color: #fff;
+  background-color: #000;
+}
+body {
+  font-family: 'Rubik', sans-serif;
+  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
+.container {
+  height: calc(100vh - 60px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-family: 'Salsa', cursive;
+}
+.container h2 {
+  font-weight: 400;
+  padding-bottom: 4px;
+  border-bottom: 2px solid #fff;
+}
+.container h3 {
+  font-weight: 300;
+  margin: 1rem;
+}
+#celsius, #fahrenheit, #kelvin {
+  margin: .5rem;
+  
+}
+#celsius  input {
+  height: 30px;
+  width: 200px;
+  background: #fff;
+  /* background-color: #fff; */
+  padding: 2px 7px;
+  border: 3px solid #280659;
+  border-radius: 4px;
+  outline: none;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+#fahrenheit input {
+  height: 30px;
+  width: 200px;
+  padding: 2px 7px;
+  border: 3px solid #280659;
+  border-radius: 4px;
+  outline: none;
+  background: #fff;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+
+#kelvin input {
+  height: 30px;
+  width: 200px;
+  padding: 2px 7px;
+  border: 3px solid #280659;
+  font-weight: 500;
+  background: #fff;
+  border-radius: 4px;
+  outline: none;
+  font-size: 15px;
+}
+
+
+.btn {
+  margin: 1rem;
+}
+.btn button {
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 4px;
+  border: none;
+  color: #fff;
+  font-weight: 400;
+  cursor: pointer;
+  font-family: 'Rubik', sans-serif;
+  outline: none;
+  background-color: #422680;
+  transition: 200ms ;
+
+}
+.btn button:hover {
+  background: #000;
+  
+  font-weight: 500;
+}
+
+footer {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  box-shadow: 0px -5px 6px 1px rgba(255, 255, 255, 1);
+}
